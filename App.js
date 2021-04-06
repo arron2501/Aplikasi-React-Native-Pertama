@@ -71,7 +71,8 @@ const App: () => Node = () => {
             backgroundColor: isDarkMode ? Colors.black : Colors.white,
           }}>
           <Section title="Hello World!">
-            First time running <Text style={styles.highlight}>React Native App</Text>
+            First time running{' '}
+            <Text style={styles.highlight}>React Native App</Text>
           </Section>
           <Section title="Step One">
             Edit <Text style={styles.highlight}>App.js</Text> to change this
